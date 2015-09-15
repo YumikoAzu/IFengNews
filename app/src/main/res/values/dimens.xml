@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_elevation">8dp</dimen>
+    <dimen name="common_load_more_progress_size">30dp</dimen>
+    <dimen name="common_load_more_padding">20dp</dimen>
+
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_padding">20dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_indicator_height">3dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_indicator_radius">2dp</dimen>
+
+    <dimen name="big_small_text">16sp</dimen>
+    <dimen name="one_px">1px</dimen>
+
+    <dimen name="list_item_news_list_padding_top_bottom">8dp</dimen>
+    <dimen name="list_item_news_list_padding_left_right">12dp</dimen>
+    <dimen name="list_item_news_list_margin">5dp</dimen>
+
+    <dimen name="list_item_news_list_image_width">80dp</dimen>
+    <dimen name="list_item_news_list_image_height">60dp</dimen>
+    <dimen name="list_item_news_list_slide_image_height">85dp</dimen>
+
+    <dimen name="micro_text">12sp</dimen>
+    <dimen name="common_loading_progress_size">35dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="medium_text">18sp</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/pager_item_gallery_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"/>
+
+
+
+    <com.yumikoazu.ifengnews.ui.view.CircularProgress
+        android:id="@+id/loadingView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:borderWidthr="6dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>

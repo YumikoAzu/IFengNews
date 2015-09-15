@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.sw.library.widget.library.UniversalLoadingView
+        android:id="@+id/loadingView"
+        app:bGradient="true"
+        app:radius="50dp"
+        app:bg_transparent="false"
+        app:circleColor="@android:color/holo_green_dark"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srfLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<com.jude.rollviewpager.RollPagerView-->
+            <!--android:id="@+id/roll_view_pager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="180dp"-->
+            <!--app:rollviewpager_play_delay="3000"-->
+            <!--android:background="@color/blue"/>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="280dp"-->
+            <!--android:background="@color/blue">-->
+
+            <!--<android.support.v4.view.ViewPager-->
+                <!--android:id="@+id/news_list_header_view_pager"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"/>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/news_list_header_view_indicator_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:padding="@dimen/list_item_news_list_padding_top_bottom">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/news_list_header_view_title"-->
+                    <!--android:layout_marginRight="@dimen/list_item_news_list_padding_top_bottom"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="@dimen/micro_text"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/news_list_header_view_indicator"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:ellipsize="end"-->
+                    <!--android:textColor="@color/common_list_smart_tab_underline_color"-->
+                    <!--android:textSize="@dimen/micro_text"/>-->
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <com.yumikoazu.ifengnews.widgets.LoadMoreListView
+            android:id="@+id/loadLv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/list_divider"
+            android:dividerHeight="@dimen/one_px"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

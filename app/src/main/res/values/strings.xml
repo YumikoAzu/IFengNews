@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IFengNews</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="common_load_more_end">没有更多了</string>
+</resources>

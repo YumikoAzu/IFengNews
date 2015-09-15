@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_list_item_bg_selector"
+    android:paddingBottom="@dimen/list_item_news_list_padding_top_bottom"
+    android:paddingLeft="@dimen/list_item_news_list_padding_left_right"
+    android:paddingRight="@dimen/list_item_news_list_padding_left_right">
+
+    <ImageView
+        android:id="@+id/list_item_news_list_slide_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_px"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/list_item_news_list_padding_top_bottom"
+        android:background="@drawable/common_list_divider"/>
+
+    <TextView
+        android:id="@+id/list_item_news_list_slide_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_news_list_slide_divider"
+        android:ellipsize="end"
+        android:gravity="left|top"
+        android:maxLines="2"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/big_small_text"/>
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/list_item_news_list_slide_title"
+                  android:layout_marginTop="@dimen/list_item_news_list_padding_top_bottom">
+
+        <ImageView
+            android:id="@+id/slideIVOne"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_news_list_slide_image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/img1"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="@dimen/list_item_news_list_slide_image_height"
+            android:background="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/slideIVTwo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_news_list_slide_image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/img2"/>
+
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="@dimen/list_item_news_list_slide_image_height"
+            android:background="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/slideIVThree"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/list_item_news_list_slide_image_height"
+            android:layout_weight="1"
+            android:src="@mipmap/img3"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
